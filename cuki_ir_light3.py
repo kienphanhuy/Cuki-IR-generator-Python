@@ -89,8 +89,8 @@ def oct_spectrum2(s,fs):
 data, fs = sf.read(filename)
 Nb0=data.shape
 Nb=Nb0[0] # Sample file size
-mic=data[:,0] # Mic sample
-pic=data[:,1] # Pic sample
+mic=data[:,1] # Mic sample
+pic=data[:,0] # Pic sample
 FIR1=np.zeros(NbF,dtype = 'complex_')
 Nbuff=fs; # Buffer size
 Nbmax=math.floor(Nb/Nbuff)-10
