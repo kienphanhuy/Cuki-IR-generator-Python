@@ -41,7 +41,7 @@ import soundfile as sf
 import math
 import numpy as np
 from scipy import signal
-filename='LmicRpic.wav'
+filename='RmicLpic.wav'
 NbF=2048 # Size of output IR
 #========================================================================#
 def oct_spectrum2(s,fs):
