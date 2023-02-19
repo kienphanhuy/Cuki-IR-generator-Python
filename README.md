@@ -8,8 +8,8 @@ It requires an IR loader, like a TC electronic Impulse IR loader, BOSS IR-200, L
 This program generates an IR wav file to transform your piezo pickup tone into an external microphone tone.
 
 The input is a 1-2 min stereo file with 
-* Microphone take on the left
-* Pickup take on the right
+* Microphone take on the right
+* Pickup take on the left
 The two tracks must have been recorded simultaneously with a 2-inputs audio interface or alike.
 
 Note that the frequency sampling rate (44.1 KHz, 48 KHz or 96 KHz) is left unchanged. So if your pedal needs a specific format, pleasre record the stereo file in that format.
