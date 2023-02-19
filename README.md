@@ -32,3 +32,19 @@ where "Std" stands for standard process. The process is a "light version" of the
 where "Std_Bld" stands for Standard with 50% raw pickup / 50% IR blend
 
 where "M" stands for Modified process (usually clearer and brighter than the standard)
+
+The program can be found in Google Colab notebook format
+"Cuki_IR_light.ipynb"
+
+or in python file format
+"Cuki_IR_light3.py"
+
+Dependencies
+Required librairies are:
+soundfile
+math
+numpy
+scipy
+
+Optional librairy is
+matplotlib
