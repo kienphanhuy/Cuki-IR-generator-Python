@@ -8,8 +8,8 @@ Original file is located at
 
 Main program
 Load a stereo wav file with:
-*   on the left the microphone track
-*   on the right the piezo pickup track
+*   on the right the microphone track
+*   on the left the piezo pickup track
 
 Change the filename in the 5th line of the code to match your file name
 
