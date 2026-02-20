@@ -1,0 +1,22 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "cuki-ir-generator"
+version = "1.0.0"
+description = "Generate acoustic guitar IR files from stereo mic/pickup WAV recordings"
+requires-python = ">=3.9"
+dependencies = [
+    "soundfile",
+    "numpy",
+    "scipy",
+    "matplotlib",
+]
+
+[project.scripts]
+cuki-ir-generator     = "cuki_ir_cli:main"
+cuki-ir-generator-gui = "cuki_ir_gui:main"
+
+[tool.hatch.build.targets.wheel]
+packages = ["."]
